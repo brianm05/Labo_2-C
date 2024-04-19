@@ -1,6 +1,6 @@
-//Crea un array dinámico de enteros.
-//Luego define una función que reciba un vector de enteros V y su tamaño TAM y devuelva
-//“True” si está ordenado o “False” si no está ordenado.
+//Crea un array dinÃ¡mico de enteros.
+//Luego define una funciÃ³n que reciba un vector de enteros V y su tamaÃ±o TAM y devuelva
+//â€œTrueâ€ si estÃ¡ ordenado o â€œFalseâ€ si no estÃ¡ ordenado.
 
 #include<stdio.h>
 #include<time.h>
