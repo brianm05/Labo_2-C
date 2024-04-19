@@ -19,10 +19,10 @@ int main(){
     scanf("%d", &camion_usuario.ruedas);
     scanf("%f", &camion_usuario.km);
     scanf("%f", &camion_usuario.precio);
-    printf("Modelo: %s, N° de ruedas: %d, Kilometraje: %d, Precio: %.2f\n",
+    printf("Modelo: %s, NÂ° de ruedas: %d, Kilometraje: %d, Precio: %.2f\n",
     camion_usuario.modelo, camion_usuario.ruedas, camion_usuario.km, camion_usuario.precio);
 
-    printf("Modelo: %s, N° de ruedas: %d, Kilometraje: %d, Precio: %.2f\n",
+    printf("Modelo: %s, NÂ° de ruedas: %d, Kilometraje: %d, Precio: %.2f\n",
     fiat_600.modelo, fiat_600.ruedas, fiat_600.km, fiat_600.precio);
 
 return 0;
