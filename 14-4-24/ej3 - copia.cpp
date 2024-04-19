@@ -1,8 +1,8 @@
-/*Se desea comparar el tiempo del funcionamiento de los diferentes métodos de búsqueda. Para ello se pretende buscar el
-número 27 en el siguiente vector: 1 4 5 12 25 27 31 42 43 56 73 76 78 80 99. Construye las funciones para la:
-a) Búsqueda secuencial.
-b) Búsqueda binaria.
-Investiga cómo devolver el tiempo que demora cada proceso e implementa lãs funciones correspondientes.*/
+/*Se desea comparar el tiempo del funcionamiento de los diferentes mÃ©todos de bÃºsqueda. Para ello se pretende buscar el
+nÃºmero 27 en el siguiente vector: 1 4 5 12 25 27 31 42 43 56 73 76 78 80 99. Construye las funciones para la:
+a) BÃºsqueda secuencial.
+b) BÃºsqueda binaria.
+Investiga cÃ³mo devolver el tiempo que demora cada proceso e implementa lÃ£s funciones correspondientes.*/
 
 
 #include<stdio.h>
