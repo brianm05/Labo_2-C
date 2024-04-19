@@ -1,7 +1,7 @@
 //Se ingresa en un vector 20 valores float en forma aleatoria y la computadora los ordena y emite.
-//a) por selección
+//a) por selecciÃ³n
 //b) por burbujeo mejorado
-//c) por inserción
+//c) por inserciÃ³n
 
 #include<stdio.h>
 #include<stdlib.h>
