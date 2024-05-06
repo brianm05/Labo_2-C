@@ -14,7 +14,7 @@ struct puntoDeReparto{
 int id;
 char barrio[T];
 float repartos_diarios[T];
-// faltó: total_repartos_del_mes - tipo float (inicialmente campo vacío), corregir aquí y
+// faltÃ³: total_repartos_del_mes - tipo float (inicialmente campo vacÃ­o), corregir aquÃ­ y
 // en las funciones correspondientes
 float promedio;
 float total_repartos_del_mes;
@@ -108,7 +108,7 @@ int main(){
     int * enteros;
     float ** matriz;
  //1. 0.3125
- //2. Definir en main() un ‘vector de puntos de reparto’ de N struct.
+ //2. Definir en main() un â€˜vector de puntos de repartoâ€™ de N struct.
  //0.625
  //3. 0.625
     struct puntoDeReparto puntosRepartos[N]={
@@ -118,9 +118,9 @@ int main(){
         {3,"Barrio-4",{0},0,0},
         {4,"Barrio-5",{0},0,0}
     };
-    //7. Definir en main() un ‘vector de encargados’ de N struct.
+    //7. Definir en main() un â€˜vector de encargadosâ€™ de N struct.
     //0.625
-    //8. Cargar el array anterior con los datos definidos en el struct. La carga puede realizarse de 2 formas: estática o con una función
+    //8. Cargar el array anterior con los datos definidos en el struct. La carga puede realizarse de 2 formas: estÃ¡tica o con una funciÃ³n
     //interactiva.
     //0.625
     struct encargados encargado[N]={
@@ -131,8 +131,8 @@ int main(){
         {4,4,"Julian"}
     };
 
-    //3. Cargar el vector anterior con los datos de ‘Id_ punto_de_reparto’ y ‘barrio’, considerar que el resto de los campos inicialmente
-    //deben ser cargados con ceros (0). La carga puede realizarse de 2 formas: estática o con una función interactiva.
+    //3. Cargar el vector anterior con los datos de â€˜Id_ punto_de_repartoâ€™ y â€˜barrioâ€™, considerar que el resto de los campos inicialmente
+    //deben ser cargados con ceros (0). La carga puede realizarse de 2 formas: estÃ¡tica o con una funciÃ³n interactiva.
     for(int i=0;i<N;i++){
         for(int j=0;j<T;j++){
             puntosRepartos[i].repartos_diarios[j]=0;
@@ -140,44 +140,44 @@ int main(){
         puntosRepartos[i].promedio=0;
     }
 
-    //4. Crear una función que cargue aleatoriamente los T ‘repartos_diarios’ en el vector.
+    //4. Crear una funciÃ³n que cargue aleatoriamente los T â€˜repartos_diariosâ€™ en el vector.
     //0.625
     cargarRepartosDiarios(puntosRepartos);
 
-    //5. Crear una función de emisión de datos este vector.
+    //5. Crear una funciÃ³n de emisiÃ³n de datos este vector.
     // 0.625
     emitirPuntosDeReparto(puntosRepartos);
 //6. 0.625
 
-    //9. Crear una función de emisión de datos del este vector.
+    //9. Crear una funciÃ³n de emisiÃ³n de datos del este vector.
     //0.625
     emitirEncargados(encargado);
 
-    //10. Crear una función que genere un vector dinámico de enteros de dimensión N, ( ‘vector dinámico de posiciones’).
+    //10. Crear una funciÃ³n que genere un vector dinÃ¡mico de enteros de dimensiÃ³n N, ( â€˜vector dinÃ¡mico de posicionesâ€™).
     //0.625
     crearArray(enteros);
 
-    //11. Crear una función de carga para el vector dinámico, que se inicializara, en cada posición, con -10
+    //11. Crear una funciÃ³n de carga para el vector dinÃ¡mico, que se inicializara, en cada posiciÃ³n, con -10
     //0.625
     cargarArray(enteros);
 
-    //12. Crear una función de emisión de datos de este vector.
+    //12. Crear una funciÃ³n de emisiÃ³n de datos de este vector.
     // 0.625
     emitirArray(enteros);
 
-    //13. Crear una función que genere una matriz dinámica de N filas por M columnas, (‘promedios de repartos de los 6 meses anteriores’)
+    //13. Crear una funciÃ³n que genere una matriz dinÃ¡mica de N filas por M columnas, (â€˜promedios de repartos de los 6 meses anterioresâ€™)
     // 0.625
     matriz=crearMatriz();
 
-    //14. Crear una función de carga aleatoria de la matriz dinámica.
+    //14. Crear una funciÃ³n de carga aleatoria de la matriz dinÃ¡mica.
     //0.625
     cargarMatriz(matriz);
 
-    //15. Crear una función de emisión de datos de la matriz dinámica.
+    //15. Crear una funciÃ³n de emisiÃ³n de datos de la matriz dinÃ¡mica.
     // 0.625
     emitirMatriz(matriz);
 
-    //16. Liberar la memoria dinámica.
+    //16. Liberar la memoria dinÃ¡mica.
     //0.625
     liberarMemoria(enteros,matriz); //muy bien!
 
