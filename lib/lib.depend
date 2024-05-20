@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1464548957 source:c:\users\dell inspiron 13\desktop\libreria\lib\misfunciones.c
+	<stdio.h>
+
+1464548958 source:c:\users\profesores\desktop\libcb\lib\misfunciones.c
+	<stdio.h>
+
+1464549078 source:c:\users\profesores\desktop\libcb\lib\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"misfunciones.h"
+
+1464549000 c:\users\profesores\desktop\libcb\lib\misfunciones.h
+
+1464534678 source:k:\trabajo universidad\inspt 2018\librerias en c\libcb\lib\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"misfunciones.h"
+
+1464534600 k:\trabajo universidad\inspt 2018\librerias en c\libcb\lib\misfunciones.h
+
+1464634156 source:k:\trabajo universidad\inspt 2018\librerias en c\libcb\lib\misfunciones.c
+	"misfunciones.h"
+	<stdio.h>
+
+1464549078 source:c:\users\moni\documents\c\codigos de ejemplo\ejemplos de librerías\librerias en c\libcb\lib\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"misfunciones.h"
+
+1464549000 c:\users\moni\documents\c\codigos de ejemplo\ejemplos de librerías\librerias en c\libcb\lib\misfunciones.h
+
+1464648556 source:c:\users\moni\documents\c\codigos de ejemplo\ejemplos de librerías\librerias en c\libcb\lib\misfunciones.c
+	"misfunciones.h"
+	<stdio.h>
+
+1693263465 source:c:\users\moni\documents\c\codigos de ejemplo\ejemplos de librerías\lib\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"misfunciones.h"
+
+1464549000 c:\users\moni\documents\c\codigos de ejemplo\ejemplos de librerías\lib\misfunciones.h
+
+1693263873 source:c:\users\moni\documents\c\codigos de ejemplo\ejemplos de librerías\lib\misfunciones.c
+	"misfunciones.h"
+	<stdio.h>
+
