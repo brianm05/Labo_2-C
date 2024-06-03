@@ -1,0 +1,40 @@
+#:kivy 1.0.9
+
+<Enemy>:
+    size: 50, 50 
+    canvas:
+        Ellipse:
+            pos: self.pos
+            size: self.size          
+
+<Player>:
+    size: 50, 100
+    canvas:
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            source: 'car.png'
+
+<Game>:
+    ball: pong_ball
+    player1: player_left
+
+    canvas:
+        Rectangle:
+            pos: 100, 0
+            size: 5, self.height
+    
+    Label:
+        font_size: 70  
+        center_x: root.width / 2
+        top: root.top - 50
+        text: str(root.player1.score) 
+   
+    Enemy:
+        id: pong_ball
+        center: self.parent.center
+
+    Player:
+        id: player_left
+        center_x: root.center_x
+        y: root.y
