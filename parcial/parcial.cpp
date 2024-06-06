@@ -65,9 +65,9 @@ int main(){
     sucursalesMuchoDescuento=sucursales_descuento(sucursal,enteros);
     printf("Sucursales con descuento mayor al promedio: %d",sucursalesMuchoDescuento);
 /*
-3. Función que reciba el array de sucursales, el array de enteros y cargue en este array, las
-posiciones de los registros del array de sucursales cuyo ‘Total_de_descuentos_del mes supere al
-‘Promedio_ Descuentos’. Los datos deben almacenarse en forma contigua. Esta función debe retornar
+3. FunciÃ³n que reciba el array de sucursales, el array de enteros y cargue en este array, las
+posiciones de los registros del array de sucursales cuyo â€˜Total_de_descuentos_del mes supere al
+â€˜Promedio_ Descuentosâ€™. Los datos deben almacenarse en forma contigua. Esta funciÃ³n debe retornar
 la cantidad de sucursales detectada.
 */
 return 0;
